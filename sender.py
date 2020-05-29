@@ -50,9 +50,6 @@ class SignalSender(SignalTransport):
 
     def _do_transaction(self, encoded_message):
 
-#       print("Encoded message: {}".format(encoded_message))
-#        print("Timestamp in MS: {}".format(int(round(time.time() * 1000))))
-
         print("Timestamp in MS: {}".format(int(round(time.time() * 1000))))
 
         for bit in encoded_message:
